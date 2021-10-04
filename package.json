@@ -78,6 +78,17 @@
         "mac": "ctrl+alt+enter",
         "when": "editorTextFocus"
       }
-    ]
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "Colonize",
+      "properties": {
+        "colonize.acceptSuggestion": {
+          "type": "boolean",
+          "default": true,
+          "description": "Accept suggestion before colonize?"
+        }
+      }
+    }
   }
 }
